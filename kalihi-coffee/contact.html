@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Kalihi Coffee</title>
+  </head>
+  <body>
+    <header>
+      <h1>Kalihi Coffee</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="jobs.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <article>
+        <header>
+          <h2>Contact Us</h2>
+        </header>
+        
+        <form>
+          <h3>We would love to hear from you!</h3>
+          <p>Fill out this form, and we will do our best to respond within 3 business days.</p>
+          
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </fieldset>
+          
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject">
+            <option value="">Reason for Contacting Us...</option>
+            <option value="job">Job Inquiry</option>
+            <option value="drink">New Drink Idea</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+          <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+          <label for="newsletter">Subscribe me to email updates!</label>
+          <button type="submit">Submit Inquiry</button>
+        </form>
+        
+        <section>
+          <h3>Privacy Policy</h3>
+          <p>Last Updated:<time datetime="2026-01-30"> January 30, 2026</time></p>
+          <ul>
+            <li>We will only use your information to respond to inquires.</li>
+            <li>Your information will not be sold.</li>
+            <li>Please let us know, and we will unsubscribe you from our email list.</li>
+          </ul>
+          <address>
+            Contact Email: <a href="mailto:hello@kalihicoffee.com">hello@kalihicoffee.com</a>
+          </address>
+        </section>
+        
+      </article>
+    </main>
+    
+    <footer>
+      <p>© 2026 Kalihi Coffee</p>
+      <address>123 Coffee Street, Kalihi, HI</address>
+    </footer>
+  </body>
+</html>
