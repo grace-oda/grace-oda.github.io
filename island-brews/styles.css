@@ -1,0 +1,246 @@
+/* ===================
+   Island Brews Menu Styles
+   =================== */
+
+/* ===================
+   Reset & Base Styles
+   =================== */
+
+/* TODO: 
+X Apply box-sizing: border-box to all elements */
+* {
+  box-sizing: border-box ;
+}
+
+/* TODO: 
+X Set body font, 
+X size, 
+X line-height, 
+x text color (#3E2723), 
+x and background (#FFFAF0) */
+
+html {
+  font-size: 16px;  /* Base size */
+}
+
+body {
+  font-family: ‘Segoe UI’, Tahoma, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color:  #3E2723;
+  background-color: #FFFAF0;
+}
+
+/* ===================
+   Typography
+   =================== */
+
+/* TODO: 
+X Set heading font family (Georgia, serif) 
+x and color (#5D4037) */
+h1, h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #5D4037;
+}
+
+/* TODO: 
+x Set h1 size (try 2em) */
+h1 {
+  font-size: 2rem;
+}
+
+/* TODO: 
+X Set h2 size (try 1.5em) 
+x and add margin-top for spacing */
+h2 {
+  font-size: 1.5rem;
+  margin-top: 16px;
+}
+
+/* TODO: 
+x Style paragraphs with appropriate margins */
+p {
+  margin: 8px;
+}
+
+/* ===================
+   Links
+   =================== */
+
+/* TODO: 
+x Set link color (#5D4037) */
+a {
+  color: #5D4037;
+}
+
+/* TODO: 
+x Set hover AND focus states - use lighter brown (#8D6E63) */
+a:hover,
+a:focus {
+  color: #8D6E63;
+}
+
+/* ===================
+   Header
+   =================== */
+
+/* TODO: 
+x Brown background (#5D4037), 
+x cream text (#FFFAF0), 
+padding */
+header {
+  background-color: #5D4037;
+  color: #FFFAF0;
+  padding: 16px;
+}
+
+/* ===================
+   Navigation
+   =================== */
+
+/* TODO: 
+X Remove list bullets , 
+remove default padding */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* TODO: 
+X Display nav items horizontally (hint: display: inline or inline-block) */
+nav li {
+  display: inline-block;
+}
+
+/* TODO: Style nav links - 
+x padding, 
+x cream color for visibility on dark background */
+nav a {
+  padding: 8px;
+  color: 	#FFFAF0;
+  background-color: #5D4037;
+}
+
+/* TODO: 
+x Nav link hover/focus state */
+nav a:hover,
+nav a:focus {
+  color: #8D6E63;
+}
+
+/* ===================
+   Main Content
+   =================== */
+
+/* TODO: 
+x Add padding around main content area */
+main {
+  padding: 32px;
+}
+
+/* ===================
+   Menu Sections
+   =================== */
+
+/* TODO: 
+x Light peach background (#FFF3E0), 
+x padding, 
+x margin-bottom for spacing */
+section {
+  background-color: #FFF3E0;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+/* ===================
+   Tables
+   =================== */
+
+/* TODO: 
+x Full width, 
+X collapse borders */
+table {
+  display: block;
+  border-collapse: collapse;
+}
+
+/* TODO: Style table header cells - 
+x brown background (#5D4037), 
+x white text,
+x padding */
+th {
+  background-color: #5D4037;
+  color: white;
+  padding: 16px; 
+}
+
+/* TODO: Style table data cells - 
+x padding, 
+x border-bottom with warm gray (#D7CCC8) */
+td {
+  padding: 8px;
+  border-bottom: #D7CCC8;
+}
+
+/* TODO: 
+x Alternating row colors - even rows get light peach (#FFF3E0) */
+tbody tr:nth-child(even) {
+  background-color: #FFF3E0;
+}
+
+/* TODO: 
+x Odd rows get white background */
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+/* TODO: 
+x Right-align price columns (3rd and 4th columns) and
+x make them orange (#C65500) */
+td:nth-child(3),
+td:nth-child(4) {
+  text-align: right;
+  color: #C65500;
+}
+
+/* ===================
+   Sidebar (Add-Ons)
+   =================== */
+
+/* TODO: Distinct styling - 
+x white background,
+x border with warm gray (#D7CCC8), 
+x padding */
+aside {
+  color: white; 
+  border-color: #D7CCC8;
+  padding: 16px; 
+}
+
+/* TODO: 
+x Remove bullet points from add-ons list */
+aside ul {
+  list-style: none;
+}
+
+/* TODO: 
+x Space out list items */
+aside li {
+  line-height: 2;
+}
+
+/* ===================
+   Footer
+   =================== */
+
+/* TODO: 
+x Brown background (#5D4037), 
+x cream text (#FFFAF0), 
+x padding, 
+x center the text */
+footer {
+  background-color: #5D4037;
+  color: #FFFAF0;
+  padding: 16px;
+  text-align: center;
+}
