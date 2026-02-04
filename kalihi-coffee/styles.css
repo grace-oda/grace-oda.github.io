@@ -107,7 +107,9 @@ padding */
 /* ===================
    Navigation
    =================== */
-
+nav {
+   text-align: center;
+}
 /* TODO: 
 X Remove list bullets , 
 remove default padding */
@@ -132,6 +134,7 @@ nav a {
   padding: 8px;
   color: 	#2F3318;
   background-color: #AFD2B7;
+   text-align: center;
 }
 
 /* TODO: 
