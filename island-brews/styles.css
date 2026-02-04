@@ -168,6 +168,7 @@ X collapse borders */
 table {
   display: block;
   border-collapse: collapse;
+  border: 1px solid #FFF3E0;
 }
 
 /* TODO: Style table header cells - 
