@@ -1,12 +1,10 @@
-/* ===================
-   Island Brews Menu Styles
-   =================== */
-/* ===================
-   Reset & Base Styles
-   =================== */
-
-/* TODO: 
-X Apply box-sizing: border-box to all elements */
+/* Color scheme for this site:
+   Primary: #9c6024 (main brand/accent color)
+   Text: #2f3318 (body text)
+   Text muted: #665646 (secondary/lighter text)
+   Background: #dcd9c7 (page background)
+   Border: #AFD2B7 (borders)
+*/
 * {
   box-sizing: border-box ;
 }
