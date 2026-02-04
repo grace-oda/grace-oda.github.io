@@ -41,7 +41,8 @@ X Set heading font family (Garamond, serif)
 x and color (#718480) */
 h1, h2, h3 {
   font-family: ‘Baskervville SC’, 'Garamond', serif;
-   text-align: center;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* TODO: 
@@ -216,6 +217,11 @@ td:nth-child(2) {
   font-weight: 700;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
 
 /* ===================
    Sidebar (Add-Ons)
