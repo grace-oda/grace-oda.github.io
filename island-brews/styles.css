@@ -40,13 +40,13 @@ X Set heading font family (Georgia, serif)
 x and color (#5D4037) */
 h1, h2 {
   font-family: Georgia, "Times New Roman", serif;
-  color: #5D4037;
 }
 
 /* TODO: 
 x Set h1 size (try 2em) */
 h1 {
   font-size: 2rem;
+   color: #FFFAF0;
 }
 
 /* TODO: 
@@ -55,12 +55,13 @@ x and add margin-top for spacing */
 h2 {
   font-size: 1.5rem;
   margin-top: 16px;
+  color: #5D4037;
 }
 
 /* TODO: 
 x Style paragraphs with appropriate margins */
 p {
-  margin: 8px;
+  margin: 8px 16px;
 }
 
 /* ===================
