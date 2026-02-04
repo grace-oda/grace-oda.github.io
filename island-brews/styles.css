@@ -38,7 +38,7 @@ body {
 /* TODO: 
 X Set heading font family (Georgia, serif) 
 x and color (#5D4037) */
-h1, h2 {
+h1, h2, h3 {
   font-family: Georgia, "Times New Roman", serif;
 }
 
@@ -54,6 +54,12 @@ X Set h2 size (try 1.5em)
 x and add margin-top for spacing */
 h2 {
   font-size: 1.5rem;
+  margin-top: 16px;
+  color: #5D4037;
+}
+
+h3 {
+  font-size: 1.25rem;
   margin-top: 16px;
   color: #5D4037;
 }
