@@ -19,15 +19,17 @@ x text color (#363030),
 x and background (#E3D5C8) */
 
 html {
-  font-size: 16px;  /* Base size */
+  font-size: 24px;  /* Base size */
+   text-align: center;
 }
 
 body {
-  font-family: ‘Domine’, 'Georgia', serif;
+  font-family: ‘Baskervville’, 'Garamond', serif;
   font-size: 1rem;
   line-height: 1.6;
   color:  #2f3318;
   background-color: #dcd9c7;
+   text-align: center;
 }
 
 /* ===================
@@ -35,10 +37,11 @@ body {
    =================== */
 
 /* TODO: 
-X Set heading font family (Georgia, serif) 
+X Set heading font family (Garamond, serif) 
 x and color (#718480) */
 h1, h2, h3 {
-  font-family: ‘Chonburi’, 'Georgia', serif;
+  font-family: ‘Baskervville SC’, 'Garamond', serif;
+   text-align: center;
 }
 
 /* TODO: 
