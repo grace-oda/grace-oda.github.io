@@ -114,12 +114,15 @@ remove default padding */
 nav ul {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
 /* TODO: 
 X Display nav items horizontally (hint: display: inline or inline-block) */
 nav li {
   display: inline-block;
+  text-align: center;
+
 }
 
 /* TODO: Style nav links - 
