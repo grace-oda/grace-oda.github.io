@@ -168,7 +168,7 @@ X collapse borders */
 table {
   display: block;
   border-collapse: collapse;
-  border: 1px solid #D7CCC8;
+  border: 0px solid #D7CCC8;
 }
 
 /* TODO: Style table header cells - 
@@ -179,6 +179,7 @@ th {
   background-color: #5D4037;
   color: white;
   padding: 24px; 
+  border-bottom: 1px solid #D7CCC8;
 }
 
 /* TODO: Style table data cells - 
@@ -186,7 +187,7 @@ x padding,
 x border-bottom with warm gray (#D7CCC8) */
 td {
   padding: 24px;
-  border-bottom: 2px solid #D7CCC8;
+  border-bottom: 1px solid #D7CCC8;
 }
 
 /* TODO: 
