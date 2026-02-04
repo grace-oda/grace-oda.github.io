@@ -1,0 +1,257 @@
+/* ===================
+   Island Brews Menu Styles
+   =================== */
+/* ===================
+   Reset & Base Styles
+   =================== */
+
+/* TODO: 
+X Apply box-sizing: border-box to all elements */
+* {
+  box-sizing: border-box ;
+}
+
+/* TODO: 
+X Set body font, 
+X size, 
+X line-height, 
+x text color (#363030), 
+x and background (#E3D5C8) */
+
+html {
+  font-size: 16px;  /* Base size */
+}
+
+body {
+  font-family: ‘Domine’, 'Georgia', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color:  #363030;
+  background-color: #E3D5C8;
+}
+
+/* ===================
+   Typography
+   =================== */
+
+/* TODO: 
+X Set heading font family (Georgia, serif) 
+x and color (#718480) */
+h1, h2, h3 {
+  font-family: ‘Chonburi’, 'Georgia', serif;
+}
+
+/* TODO: 
+x Set h1 size (try 2em) */
+h1 {
+  font-size: 2rem;
+   color: #E3D5C8;
+}
+
+/* TODO: 
+X Set h2 size (try 1.5em) 
+x and add margin-top for spacing */
+h2 {
+  font-size: 1.5rem;
+  margin-top: 16px;
+  color: #718480;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 16px;
+  color: #718480;
+}
+
+/* TODO: 
+x Style paragraphs with appropriate margins */
+p {
+  margin: 8px 16px;
+}
+
+/* ===================
+   Links
+   =================== */
+
+/* TODO: 
+x Set link color (#718480) */
+a {
+  color: #718480;
+}
+
+/* TODO: 
+x Set hover AND focus states - use lighter brown (#A67F60) */
+a:hover,
+a:focus {
+  color: #A67F60;
+}
+
+/* ===================
+   Header
+   =================== */
+
+/* TODO: 
+x Brown background (#718480), 
+x cream text (#E3D5C8), 
+padding */
+#main-header {
+  background-color: #718480;
+  color: #E3D5C8;
+  padding: 16px;
+}
+
+/* ===================
+   Navigation
+   =================== */
+
+/* TODO: 
+X Remove list bullets , 
+remove default padding */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* TODO: 
+X Display nav items horizontally (hint: display: inline or inline-block) */
+nav li {
+  display: inline-block;
+}
+
+/* TODO: Style nav links - 
+x padding, 
+x cream color for visibility on dark background */
+nav a {
+  padding: 8px;
+  color: 	#E3D5C8;
+  background-color: #718480;
+}
+
+/* TODO: 
+x Nav link hover/focus state */
+nav a:hover,
+nav a:focus {
+  color: #A67F60;
+}
+
+/* ===================
+   Main Content
+   =================== */
+
+/* TODO: 
+x Add padding around main content area */
+main {
+  padding: 32px;
+}
+
+/* ===================
+   Menu Sections
+   =================== */
+
+/* TODO: 
+x Light peach background (#87A1AF), 
+x padding, 
+x margin-bottom for spacing */
+section {
+  background-color: #87A1AF;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+/* ===================
+   Tables
+   =================== */
+
+/* TODO: 
+x Full width, 
+X collapse borders */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; 
+}
+
+/* TODO: Style table header cells - 
+x brown background (#718480), 
+x white text,
+x padding */
+th {
+  background-color: #718480;
+  color: white;
+  padding: 24px; 
+  border-bottom: 1px solid #718480; 
+}
+
+
+/* TODO: Style table data cells - 
+x padding, 
+x border-bottom with warm gray (#718480) */
+td {
+  padding: 24px;
+  border-bottom: 1px solid #718480;
+}
+
+/* TODO: 
+x Alternating row colors - even rows get light peach (#87A1AF) */
+tbody tr:nth-child(even) {
+  background-color: #87A1AF;
+}
+
+/* TODO: 
+x Odd rows get white background */
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+/* TODO: 
+x Right-align price columns (3rd and 4th columns) and
+x make them orange (#D5825A) */
+td:nth-child(3),
+td:nth-child(4) {
+  text-align: right;
+  color: #D5825A;
+  font-weight: 700;
+}
+
+/* ===================
+   Sidebar (Add-Ons)
+   =================== */
+
+/* TODO: Distinct styling - 
+x white background,
+x border with warm gray (#718480), 
+x padding */
+aside {
+  background-color: white; 
+  border: 1px solid #718480;
+  border-radius: 5px;  
+  padding: 16px; 
+}
+
+/* TODO: 
+x Remove bullet points from add-ons list */
+aside ul {
+  list-style: none;
+}
+
+/* TODO: 
+x Space out list items */
+aside li {
+  line-height: 2;
+}
+
+/* ===================
+   Footer
+   =================== */
+
+/* TODO: 
+x Brown background (#718480), 
+x cream text (#E3D5C8), 
+x padding, 
+x center the text */
+footer {
+  background-color: #718480;
+  color: #E3D5C8;
+  padding: 16px;
+  text-align: center;
+}
