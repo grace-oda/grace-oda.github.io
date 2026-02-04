@@ -219,8 +219,9 @@ x white background,
 x border with warm gray (#D7CCC8), 
 x padding */
 aside {
-  color: white; 
-  border-color: #D7CCC8;
+  background-color: white; 
+  border: 1px solid #D7CCC8;
+  border-radius: 5px;  
   padding: 16px; 
 }
 
