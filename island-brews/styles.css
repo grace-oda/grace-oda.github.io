@@ -94,7 +94,7 @@ a:focus {
 x Brown background (#5D4037), 
 x cream text (#FFFAF0), 
 padding */
-header {
+#main-header header {
   background-color: #5D4037;
   color: #FFFAF0;
   padding: 16px;
