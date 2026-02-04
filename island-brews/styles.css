@@ -177,14 +177,14 @@ x padding */
 th {
   background-color: #5D4037;
   color: white;
-  padding: 16px; 
+  padding: 24px; 
 }
 
 /* TODO: Style table data cells - 
 x padding, 
 x border-bottom with warm gray (#D7CCC8) */
 td {
-  padding: 8px;
+  padding: 24px;
   border-bottom: #D7CCC8;
 }
 
@@ -207,6 +207,7 @@ td:nth-child(3),
 td:nth-child(4) {
   text-align: right;
   color: #C65500;
+   font-weight: bold;
 }
 
 /* ===================
