@@ -166,7 +166,7 @@ section {
 x Full width, 
 X collapse borders */
 table {
-  display: block;
+ /* display: block;*/
   width: 100%;
   border-collapse: collapse;
  /* border: 0px solid #D7CCC8;*/
