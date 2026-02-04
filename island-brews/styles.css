@@ -166,10 +166,9 @@ section {
 x Full width, 
 X collapse borders */
 table {
- /* display: block;*/
   width: 100%;
   border-collapse: collapse;
- /* border: 0px solid #D7CCC8;*/
+  table-layout: fixed; 
 }
 
 /* TODO: Style table header cells - 
@@ -180,8 +179,9 @@ th {
   background-color: #5D4037;
   color: white;
   padding: 24px; 
-  /*border-bottom: 1px solid #D7CCC8;*/
+  border-bottom: 1px solid #D7CCC8; 
 }
+
 
 /* TODO: Style table data cells - 
 x padding, 
