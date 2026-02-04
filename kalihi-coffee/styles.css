@@ -207,11 +207,12 @@ tbody tr:nth-child(odd) {
 x Right-align price columns (3rd and 4th columns) and
 x make them orange (#D5825A) */
 td:nth-child(3),
-td:nth-child(4) {
+td:nth-child(2) {
   text-align: right;
   color: #9c6024;
   font-weight: 700;
 }
+
 
 /* ===================
    Sidebar (Add-Ons)
