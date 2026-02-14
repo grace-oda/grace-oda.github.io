@@ -1,0 +1,185 @@
+/* ===================
+   Island Brews Homepage Styles
+   ===================
+
+   Colors you'll need:
+   - Coffee Brown: #5D4037
+   - Light Brown: #8D6E63
+   - Tropical Orange: #C65500
+   - Dark Orange: #A85400
+   - Dark Roast: #3E2723
+   - Cream: #FFFAF0
+   - Light Peach: #FFF3E0
+*/
+
+/* ===================
+   Reset & Base Styles
+   =================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #3E2723;
+  background-color: #FFFAF0;
+}
+
+/* ===================
+   PART 1: Header & Navigation
+   =================== */
+
+/* Step 1: Make header a flex container */
+header {
+  display: flex;
+  justify-content: ___;
+  align-items: ___;
+  background-color: ___;
+  padding: ___ ___;
+}
+
+/* Step 2: Style the logo */
+.logo {
+  font-family: ___;
+  font-size: ___;
+  font-weight: ___;
+  color: ___;
+}
+
+/* Step 3: Make nav list horizontal */
+nav ul {
+  display: ___;
+  gap: ___;
+  list-style: ___;
+}
+
+/* Step 4: Style nav links */
+nav a {
+  color: ___;
+  text-decoration: ___;
+  padding: ___ ___;
+}
+
+nav a:hover {
+  color: ___;
+  background-color: ___;
+  border-radius: ___;
+}
+
+/* ===================
+   PART 3: Hero Section
+   =================== */
+
+/* Step 1: Center hero content */
+.hero {
+  display: ___;
+  flex-direction: ___;
+  justify-content: ___;
+  align-items: ___;
+  min-height: ___;
+  background-color: ___;
+  padding: ___ ___;
+  text-align: ___;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  color: #5D4037;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+}
+
+/* ===================
+   Button (already complete!)
+   =================== */
+
+.button {
+  display: inline-block;
+  background-color: #C65500;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #A85400;
+}
+
+/* ===================
+   PART 2: Featured Section
+   =================== */
+
+.featured {
+  padding: 40px 20px;
+}
+
+.featured h2 {
+  font-family: Georgia, serif;
+  color: #5D4037;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Step 1: Make card container flexible */
+.card-container {
+  display: ___;
+  flex-wrap: ___;
+  gap: ___;
+}
+
+/* ===================
+   Cards
+   =================== */
+
+/* Step 2: Make cards responsive */
+.card {
+  flex: ___ ___ ___;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card h3 {
+  font-family: Georgia, serif;
+  color: #5D4037;
+  margin: 12px 0 8px;
+}
+
+.card .price {
+  color: #C65500;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+/* ===================
+   PART 4: Footer
+   =================== */
+
+/* Step 1: Style the footer */
+footer {
+  background-color: ___;
+  color: ___;
+  text-align: ___;
+  padding: ___;
+}
