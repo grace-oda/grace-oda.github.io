@@ -366,14 +366,12 @@ aside li {
   background-color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid #9c6024;
-  /* Change border style */
   border-radius: 8px;
 }
 
 .card h3 {
   margin-bottom: 8px;
-  color: #AFD2B7;
-  /* Change to your heading color */
+  color: #2F3318;
 }
 
 .card img {
