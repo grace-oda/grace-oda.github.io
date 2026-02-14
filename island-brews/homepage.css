@@ -37,25 +37,25 @@ body {
 /* Step 1: Make header a flex container */
 header {
   display: flex;
-  justify-content: ___;
-  align-items: ___;
-  background-color: ___;
-  padding: ___ ___;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5D4037;
+  padding: 16px 24px;
 }
 
 /* Step 2: Style the logo */
 .logo {
-  font-family: ___;
-  font-size: ___;
-  font-weight: ___;
-  color: ___;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFFAF0;
 }
 
 /* Step 3: Make nav list horizontal */
 nav ul {
-  display: ___;
-  gap: ___;
-  list-style: ___;
+  display: flex;
+  gap: 24px;
+  list-style: none;
 }
 
 /* Step 4: Style nav links */
