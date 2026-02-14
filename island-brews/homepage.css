@@ -178,8 +178,8 @@ nav a:hover {
 
 /* Step 1: Style the footer */
 footer {
-  background-color: ___;
-  color: ___;
-  text-align: ___;
-  padding: ___;
+  background-color: #5D4037;
+  color: #FFFAF0;
+  text-align: center;
+  padding: 20px;
 }
