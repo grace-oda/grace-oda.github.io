@@ -42,6 +42,20 @@ nav a:hover {
   border-radius: 4px;
 }
 
+.hero {
+  background-image: url('coffee-shop-front.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
 /* TODO: 
 X Set body font, 
 X size, 
