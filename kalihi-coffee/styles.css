@@ -175,10 +175,9 @@ a:focus {
    Main Content
    =================== */
 
-/* TODO: 
-x Add padding around main content area */
 main {
   padding: 32px;
+  flex: 1;
 }
 
 /* ===================
