@@ -314,8 +314,8 @@ aside li {
 .card {
   flex: 1 1 280px;
   padding: 20px;
-  background-color: #F4F1EB;
-  /* Change to your card color */
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid #9c6024;
   /* Change border style */
   border-radius: 8px;
@@ -325,6 +325,13 @@ aside li {
   margin-bottom: 8px;
   color: #AFD2B7;
   /* Change to your heading color */
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 /* ===================
