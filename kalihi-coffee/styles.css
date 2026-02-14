@@ -47,7 +47,7 @@ nav a:hover {
 
 /* Step 1: Center hero content */
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('coffee-shop-front.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('coffee-shop-front.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 40px 20px;
+  /* padding: 40px 20px; */
   color: white;
 }
 
