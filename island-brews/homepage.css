@@ -77,14 +77,14 @@ nav a:hover {
 
 /* Step 1: Center hero content */
 .hero {
-  display: ___;
-  flex-direction: ___;
-  justify-content: ___;
-  align-items: ___;
-  min-height: ___;
-  background-color: ___;
-  padding: ___ ___;
-  text-align: ___;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background-color: #FFF3E0;
+  padding: 40px 20px;
+  text-align: center;
 }
 
 .hero h1 {
@@ -134,9 +134,9 @@ nav a:hover {
 
 /* Step 1: Make card container flexible */
 .card-container {
-  display: ___;
-  flex-wrap: ___;
-  gap: ___;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 /* ===================
@@ -145,7 +145,7 @@ nav a:hover {
 
 /* Step 2: Make cards responsive */
 .card {
-  flex: ___ ___ ___;
+  flex: 1 1 280px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
