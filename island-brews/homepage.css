@@ -60,15 +60,15 @@ nav ul {
 
 /* Step 4: Style nav links */
 nav a {
-  color: ___;
-  text-decoration: ___;
-  padding: ___ ___;
+  color: #FFFAF0;
+  text-decoration: none;
+  padding: 8px 12px;
 }
 
 nav a:hover {
-  color: ___;
-  background-color: ___;
-  border-radius: ___;
+  color: #8D6E63;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
 }
 
 /* ===================
