@@ -44,10 +44,15 @@ header {
 
 /* Step 2: Style the logo */
 .logo {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.5rem;
+  font-family:‘Baskervville SC’, 'Garamond', serif;
+  font-size: 2rem;
+  text-transform: uppercase;
   font-weight: bold;
-  color: #FFFAF0;
+  color: #2F3318;
+}
+
+nav {
+  text-align: center;
 }
 
 /* Step 3: Make nav list horizontal */
@@ -55,55 +60,22 @@ nav ul {
   display: flex;
   gap: 24px;
   list-style: none;
+  padding: 0;
 }
 
 /* Step 4: Style nav links */
-nav a {
-  color: #FFFAF0;
-  text-decoration: none;
-  padding: 8px 12px;
-}
-
-nav a:hover {
-  color: #8D6E63;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
-}
-
-/* ===================
-   Header
-   =================== */
-
-
-.site-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #2f3318;
-}
-
-#main-header {
-  background-color: #AFD2B7;
-  color: #2F3318;
-  padding: 16px;
-}
-
-/* Navigation */
-nav ul {
-  display: flex;
-  gap: 24px;
-  list-style: none;
-}
-
 nav a {
   color: #9c6024;
   text-decoration: none;
   padding: 8px 12px;
 }
 
-nav a:hover {
+nav a:hover, nav a:focus {
+  color: #8D6E63;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
 }
+
 /* ===================
    PART 3: Hero Section
    =================== */
@@ -163,17 +135,11 @@ h1, h2, h3 {
   text-align: center;
   text-transform: uppercase;
 }
-
-/* TODO: 
-x Set h1 size (try 2em) */
 h1 {
   font-size: 2rem;
    color: #2f3318;
 }
 
-/* TODO: 
-X Set h2 size (try 1.5em) 
-x and add margin-top for spacing */
 h2 {
   font-size: 1.5rem;
   margin-top: 16px;
@@ -186,8 +152,6 @@ h3 {
   color: #9c6024;
 }
 
-/* TODO: 
-x Style paragraphs with appropriate margins */
 p {
   margin: 8px 16px;
 }
@@ -208,46 +172,6 @@ a:focus {
 }
 
 /* ===================
-   Navigation
-   =================== */
-nav {
-   text-align: center;
-}
-/* TODO: 
-X Remove list bullets , 
-remove default padding */
-nav ul {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
-
-/* TODO: 
-X Display nav items horizontally (hint: display: inline or inline-block) */
-nav li {
-  display: inline-block;
-  text-align: center;
-
-}
-
-/* TODO: Style nav links - 
-x padding, 
-x cream color for visibility on dark background */
-nav a {
-  padding: 8px;
-  color: 	#2F3318;
-  background-color: #AFD2B7;
-   text-align: center;
-}
-
-/* TODO: 
-x Nav link hover/focus state */
-nav a:hover,
-nav a:focus {
-  color: #665646;
-}
-
-/* ===================
    Main Content
    =================== */
 
@@ -261,10 +185,6 @@ main {
    Menu Sections
    =================== */
 
-/* TODO: 
-x Light peach background (#87A1AF), 
-x padding, 
-x margin-bottom for spacing */
 section {
   background-color: #F4F1EB;
   padding: 24px;
@@ -319,25 +239,6 @@ ol {
 }
 
 /* ===================
-   Sidebar (Add-Ons)
-   =================== */
-
-aside {
-  background-color: white; 
-  border: 1px solid white;
-  /* border-radius: 5px;   */
-  padding: 16px; 
-}
-
-aside ul {
-  list-style: none;
-}
-
-aside li {
-  line-height: 2;
-}
-
-/* ===================
    Cards
    =================== */
 .card-section {
@@ -378,6 +279,24 @@ aside li {
   border-radius: 4px;
 }
 
+/* ===================
+   Sidebar (Add-Ons)
+   =================== */
+
+aside {
+  background-color: white;
+  border: 1px solid white;
+  /* border-radius: 5px;   */
+  padding: 16px;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside li {
+  line-height: 2;
+}
 /* ===================
    Footer
    =================== */
