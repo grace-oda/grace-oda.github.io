@@ -5,11 +5,35 @@
    Background: #F4F1EB (page background)
    Border: #AFD2B7 (borders)
 */
+/* ===================
+   Reset & Base Styles
+   =================== */
+
 * {
-  box-sizing: border-box ;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Header Layout */
+html {
+  font-size: 24px;
+  text-align: center;
+}
+
+body {
+  font-family: ‘Baskervville’, 'Garamond', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #2f3318;
+  background-color: #F4F1EB;
+  text-align: center;
+}
+
+/* ===================
+   PART 1: Header & Navigation
+   =================== */
+
+/* Step 1: Make header a flex container */
 header {
   display: flex;
   justify-content: space-between;
@@ -18,10 +42,49 @@ header {
   background-color: #AFD2B7;
 }
 
+/* Step 2: Style the logo */
+.logo {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFFAF0;
+}
+
+/* Step 3: Make nav list horizontal */
+nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+/* Step 4: Style nav links */
+nav a {
+  color: #FFFAF0;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+nav a:hover {
+  color: #8D6E63;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* ===================
+   Header
+   =================== */
+
+
 .site-title {
   font-size: 1.5rem;
   font-weight: bold;
   color: #2f3318;
+}
+
+#main-header {
+  background-color: #AFD2B7;
+  color: #2F3318;
+  padding: 16px;
 }
 
 /* Navigation */
@@ -45,9 +108,8 @@ nav a:hover {
    PART 3: Hero Section
    =================== */
 
-/* Step 1: Center hero content */
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('coffee-shop-front.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('coffee-shop-front.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,7 +136,7 @@ nav a:hover {
 }
 
 /* ===================
-   Button (already complete!)
+   Button 
    =================== */
 
 .button {
@@ -88,37 +150,14 @@ nav a:hover {
 }
 
 .button:hover {
-  background-color: #A85400;
+  background-color: #9c6024;
 }
 
-/* TODO: 
-X Set body font, 
-X size, 
-X line-height, 
-x text color (#363030), 
-x and background (#E3D5C8) */
-
-html {
-  font-size: 24px;  /* Base size */
-   text-align: center;
-}
-
-body {
-  font-family: ‘Baskervville’, 'Garamond', serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  color:  #2f3318;
-  background-color: #F4F1EB;
-   text-align: center;
-}
 
 /* ===================
    Typography
    =================== */
 
-/* TODO: 
-X Set heading font family (Garamond, serif) 
-x and color (#718480) */
 h1, h2, h3 {
   font-family: ‘Baskervville SC’, 'Garamond', serif;
   text-align: center;
@@ -163,25 +202,9 @@ a {
   color: #9c6024;
 }
 
-/* TODO: 
-x Set hover AND focus states - use lighter brown (#A67F60) */
 a:hover,
 a:focus {
   color: #665646;
-}
-
-/* ===================
-   Header
-   =================== */
-
-/* TODO: 
-x Brown background (#718480), 
-x cream text (#E3D5C8), 
-padding */
-#main-header {
-  background-color: #AFD2B7;
-  color: #2F3318;
-  padding: 16px;
 }
 
 /* ===================
@@ -252,19 +275,12 @@ section {
    Tables
    =================== */
 
-/* TODO: 
-x Full width, 
-X collapse borders */
 table {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed; 
 }
 
-/* TODO: Style table header cells - 
-x brown background (#718480), 
-x white text,
-x padding */
 th {
   background-color: #2f3318;
   color: #F4F1EB;
@@ -272,17 +288,11 @@ th {
   border-bottom: 1px solid #afd2b7; 
 }
 
-
-/* TODO: Style table data cells - 
-x padding, 
-x border-bottom with warm gray (#718480) */
 td {
   padding: 24px;
   border-bottom: 1px solid #afd2b7;
 }
 
-/* TODO: 
-x Alternating row colors - even rows get light peach (#87A1AF) */
 tbody tr:nth-child(even) {
   background-color: #F4F1EB;
 }
@@ -312,10 +322,6 @@ ol {
    Sidebar (Add-Ons)
    =================== */
 
-/* TODO: Distinct styling - 
-x white background,
-x border with warm gray (#718480), 
-x padding */
 aside {
   background-color: white; 
   border: 1px solid white;
@@ -323,14 +329,10 @@ aside {
   padding: 16px; 
 }
 
-/* TODO: 
-x Remove bullet points from add-ons list */
 aside ul {
   list-style: none;
 }
 
-/* TODO: 
-x Space out list items */
 aside li {
   line-height: 2;
 }
@@ -380,11 +382,7 @@ aside li {
    Footer
    =================== */
 
-/* TODO: 
-x Brown background (#718480), 
-x cream text (#E3D5C8), 
-x padding, 
-x center the text */
+
 footer {
   background-color: #afd2b7;
   color: #2f3318;
