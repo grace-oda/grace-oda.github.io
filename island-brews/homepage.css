@@ -284,7 +284,7 @@ nav ul {
 
   /* Limit content width on big screens */
   .featured {
-    max-width: 120px;
+    max-width: 1200px;
     /* Use 1200px */
     margin: 0 auto;
     /* Use "auto" to center on page */
