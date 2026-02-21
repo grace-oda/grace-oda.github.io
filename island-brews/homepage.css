@@ -268,31 +268,31 @@ footer {
 
   /* Nav: widest spacing on desktop */
   nav ul {
-    gap: ___;
+    gap: 24px;
     /* Use 24px */
   }
 
   /* Hero: tallest on desktop */
   .hero {
-    min-height: ___;
+    min-height: 60vh;
     /* Use 60vh */
   }
 
   .hero h1 {
-    font-size: ___;
+    font-size: 3rem;
     /* Use 3rem */
   }
 
   .hero p {
-    font-size: ___;
+    font-size: 1.25rem;
     /* Use 1.25rem */
   }
 
   /* Limit content width on big screens */
   .featured {
-    max-width: ___;
+    max-width: 120px;
     /* Use 1200px */
-    margin: 0 ___;
+    margin: 0 auto;
     /* Use "auto" to center on page */
     padding: 40px 20px;
   }
