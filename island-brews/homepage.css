@@ -37,7 +37,7 @@ body {
 
 /* IMPORTANT: Make all images responsive */
 img {
-  max-width: 100px;
+  max-width: 100%;
   /* Use 100px so images never overflow */
   height: auto;
   /* Use "auto" to keep proportions */
@@ -51,13 +51,13 @@ img {
 /* Header: stacked vertically on mobile */
 header {
   display: flex;
-  flex-direction: ___;
+  flex-direction: column;
   /* Use "column" to stack logo above nav */
-  align-items: ___;
+  align-items: center;
   /* Use "center" to center everything */
   background-color: #5D4037;
   padding: 16px;
-  gap: ___;
+  gap: 12px;
   /* Use 12px for space between logo and nav */
 }
 
