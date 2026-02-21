@@ -215,48 +215,46 @@ footer {
 
 @media (min-width: 768px) {
 
-  /* Header: side-by-side on tablet */
-  header {
-    flex-direction: row;
-    /* Use "row" to put logo and nav side-by-side */
-    justify-content: space-between;
-    /* Use "space-between" to push them apart */
-    padding: 16px 24px;
-  }
+/* Header: side-by-side on tablet */
+header {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
 
-  /* Nav: more spacing on tablet */
-  nav ul {
-    gap: 16px;
-    /* Use 16px */
-  }
+/* Nav: more spacing on tablet */
+nav ul {
+  gap: 16px;
+  /* Use 16px */
+}
 
-  /* Hero: taller on tablet */
-  .hero {
-    min-height: 50vh;
-    /* Use 50vh */
-    padding: 40px 24px;
-  }
+/* Hero: taller on tablet */
+.hero {
+  min-height: 50vh;
+  /* Use 50vh */
+  padding: 40px 24px;
+}
 
-  .hero h1 {
-    font-size: 2.5rem;
-    /* Use 2.5rem */
-  }
+.hero h1 {
+  font-size: 2.5rem;
+  /* Use 2.5rem */
+}
 
-  /* Cards: side-by-side on tablet */
-  .card-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* Use "wrap" so cards can wrap to next row */
-  }
+/* Cards: side-by-side on tablet */
+.card-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Use "wrap" so cards can wrap to next row */
+}
 
-  .card {
-    flex: 1 1 280px;
-    /* Use 1 1 280px (grow, shrink, min-width) */
-  }
+.card {
+  flex: 1 1 280px;
+  /* Use 1 1 280px (grow, shrink, min-width) */
+}
 
-  .featured {
-    padding: 40px 24px;
-  }
+.featured {
+  padding: 40px 24px;
+}
 }
 
 /* ===================
@@ -264,23 +262,11 @@ footer {
    =================== */
 
 @media (min-width: 1024px) {
-
-    /* Header: side-by-side on tablet */
-      header {
-        flex-direction: row;
-        /* Use "row" to put logo and nav side-by-side */
-        justify-content: space-between;
-        /* Use "space-between" to push them apart */
-        padding: 16px 24px;
-      }
-      
-  /* Nav: widest spacing on desktop */
   nav ul {
     gap: 24px;
     /* Use 24px */
   }
 
-  /* Hero: tallest on desktop */
   .hero {
     min-height: 60vh;
     /* Use 60vh */
