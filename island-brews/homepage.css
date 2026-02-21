@@ -265,6 +265,15 @@ footer {
 
 @media (min-width: 1024px) {
 
+    /* Header: side-by-side on tablet */
+      header {
+        flex-direction: row;
+        /* Use "row" to put logo and nav side-by-side */
+        justify-content: space-between;
+        /* Use "space-between" to push them apart */
+        padding: 16px 24px;
+      }
+      
   /* Nav: widest spacing on desktop */
   nav ul {
     gap: 24px;
