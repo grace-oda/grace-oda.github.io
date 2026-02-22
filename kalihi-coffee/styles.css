@@ -283,8 +283,14 @@ ol {
 }
 
 .card h3 {
-  margin-bottom: 8px;
-  color: #9c6024;
+  margin: 12px 0 8px;
+  color: #2F3318;
+}
+
+.card .price {
+  color: #AFD2B7;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
 .card img {
