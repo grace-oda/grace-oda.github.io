@@ -1,0 +1,420 @@
+/* Color scheme for this site:
+   Primary: lightcoral (main brand/accent color)
+   Text: black (body text)
+   Text muted: #665646 (secondary/lighter text)
+   Background: #F4F1EB (page background)
+   Border: lightgray (borders)
+*/
+/* ===================
+Responsive Homepage
+   ===================
+
+   MOBILE-FIRST APPROACH:
+   - Base styles = mobile (smallest screens)
+   - @media (min-width: 768px) = tablet and up
+   - @media (min-width: 1024px) = desktop and up
+
+/* ===================
+   Reset & Base Styles
+   =================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 24px;
+  text-align: center;
+}
+
+body {
+  font-family: ‘Baskervville’, 'Garamond', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black;
+  background-color: #F4F1EB;
+  text-align: center;
+}
+
+/* IMPORTANT: Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===================
+   MOBILE BASE STYLES
+   These apply to ALL screen sizes, starting with mobile
+   =================== */
+
+/* Header: stacked vertically on mobile */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  justify-content: center;
+  background-color: #6e0612;
+}
+
+.logo {
+  font-family:‘Baskervville SC’, 'Garamond', serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+/* Nav: centered and wrapping on mobile */
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+}
+
+/* Step 4: Style nav links */
+nav a {
+  color: #6e0612 ;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+nav a:hover, nav a:focus {
+  color: lightcoral;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* ===================
+   PART 3: Hero Section
+   =================== */
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('sandwich.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 40px 20px; */
+  object-fit: cover;
+  color: white;
+}
+
+.hero h2 {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+
+/* ===================
+   Button 
+    =================== */
+
+.button {
+  display: inline-block;
+  background-color: #6e0612;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: lightcoral;
+}
+
+
+/* ===================
+   Typography
+   =================== */
+
+h1, h2, h3 {
+  font-family: ‘Baskervville SC’, 'Garamond', serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2rem;
+   color: #6e0612;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 16px;
+  color: #6e0612;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 16px;
+  color: #6e0612;
+}
+
+p {
+  margin: 8px 16px;
+}
+
+/* ===================
+   Links
+   =================== */
+
+/* TODO: 
+a {
+  color: #6e0612;
+}
+
+a:hover,
+a:focus {
+  color: lightcoral;
+}
+
+/* ===================
+   Main Content
+   =================== */
+
+main {
+  padding: 32px;
+  flex: 1;
+}
+
+/* ===================
+   Menu Sections
+   =================== */
+
+section {
+  background-color: #F4F1EB;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+/* ===================
+   Tables
+   =================== */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; 
+}
+
+th {
+  background-color: #6e0612;
+  color: #F4F1EB;
+  padding: 24px; 
+  border-bottom: 1px solid lightgray; 
+}
+
+td {
+  padding: 24px;
+  border-bottom: 1px solid lightgray;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F4F1EB;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+td:nth-child(3),
+td:nth-child(2) {
+  text-align: right;
+  color: lightcoral;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+ol {
+  text-align: left;
+}
+
+/* ===================
+   Cards
+   =================== */
+.card-section {
+  padding: 40px 20px;
+}
+
+.card-section h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Card Container */
+.card-container {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Individual Cards */
+.card {
+  flex: 1 1 280px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid lightcoral;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 12px 0 8px;
+  color: black;
+}
+
+.card .price {
+  color: lightgray;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  max-width: 100%;
+  height: 200px;
+}
+
+/* ===================
+   Sidebar (Add-Ons)
+   =================== */
+
+aside {
+  background-color: white;
+  border: 1px solid white;
+  /* border-radius: 5px;   */
+  padding: 16px;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside li {
+  line-height: 2;
+}
+/* ===================
+   Footer
+   =================== */
+
+
+footer {
+  background-color: lightgray;
+  color: black;
+  padding: 16px;
+  text-align: center;
+}
+/* Credits styling for attribution links */
+.credits {
+  margin-top: 16px;
+  font-size: 0.85rem;
+}
+
+.credits ul {
+  list-style: none;
+  margin-top: 8px;
+}
+
+.credits li {
+  margin-bottom: 4px;
+}
+
+.credits a {
+  color: black;
+}
+
+/* ===================
+   TABLET STYLES (768px and up)
+   =================== */
+
+@media (min-width: 768px) {
+
+  /* Header: side-by-side on tablet */
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 24px;
+  }
+
+  nav ul {
+    gap: 16px;
+  }
+
+  /* Hero: taller on tablet */
+  .hero {
+    min-height: 100vh;
+    padding: 40px 24px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Cards: side-by-side on tablet */
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 1 1 280px;
+  }
+
+  .featured {
+    padding: 40px 24px;
+  }
+}
+
+/* ===================
+   DESKTOP STYLES (1024px and up)
+   =================== */
+
+@media (min-width: 1024px) {
+  nav ul {
+    gap: 24px;
+  }
+
+  .hero {
+    min-height: 100vh;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1.25rem;
+  }
+
+  .featured {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+}
