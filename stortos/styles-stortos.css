@@ -57,7 +57,7 @@ header {
   padding: 16px;
   gap: 12px;
   justify-content: center;
-  background-color: #6e0612;
+  background-color: white;
 }
 
 .logo {
@@ -65,7 +65,7 @@ header {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: bold;
-  color: white;
+  color: #6e0612;
 }
 
 /* Nav: centered and wrapping on mobile */
@@ -162,7 +162,7 @@ h2 {
   color: #6e0612;
 }
 
-h3 {
+h3, h4 {
   font-size: 1.25rem;
   margin-top: 16px;
   color: #6e0612;
@@ -228,7 +228,7 @@ td {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #F4F1EB;
+  background-color: white;
 }
 
 tbody tr:nth-child(odd) {
