@@ -113,7 +113,7 @@ nav a:hover, nav a:focus {
 
 .hero h2 {
   font-family: Georgia, serif;
-  font-size: 4rem;
+  font-size: 2rem;
   color: white;
   margin-bottom: 16px;
 }
@@ -389,6 +389,17 @@ footer {
   .featured {
     padding: 40px 24px;
   }
+    .hero h2 {
+      font-family: Georgia, serif;
+      font-size: 3rem;
+      color: white;
+      margin-bottom: 16px;
+    }
+  
+    .hero p {
+      font-size: 2rem;
+      margin-bottom: 24px;
+    }
 }
 
 /* ===================
@@ -404,13 +415,17 @@ footer {
     min-height: 100vh;
   }
 
-  .hero h1 {
-    font-size: 4rem;
-  }
+.hero h2 {
+  font-family: Georgia, serif;
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 16px;
+}
 
-  .hero p {
-    font-size: 1.25rem;
-  }
+.hero p {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
 
   .featured {
     max-width: 1200px;
