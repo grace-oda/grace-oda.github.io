@@ -113,13 +113,13 @@ nav a:hover, nav a:focus {
 
 .hero h2 {
   font-family: Georgia, serif;
-  font-size: 2rem;
+  font-size: 4rem;
   color: white;
   margin-bottom: 16px;
 }
 
 .hero p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-bottom: 24px;
 }
 
@@ -405,7 +405,7 @@ footer {
   }
 
   .hero h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .hero p {
