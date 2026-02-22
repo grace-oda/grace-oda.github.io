@@ -267,8 +267,9 @@ ol {
 
 /* Card Container */
 .card-container {
+  flex-wrap: wrap;
   display: flex;
-  flex-wrap: column;
+  flex-direction: column;
   gap: 20px;
 }
 
