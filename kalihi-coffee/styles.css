@@ -124,6 +124,22 @@ nav a:focus {
   font-size: 1.1rem;
   margin-bottom: 24px;
 }
+.hero #job {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("baristas.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 40px 20px; */
+  object-fit: cover;
+  color: white;
+}
 
 /* ===================
    Button 
