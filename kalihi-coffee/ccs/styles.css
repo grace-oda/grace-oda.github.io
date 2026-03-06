@@ -98,7 +98,7 @@ nav a:focus {
 
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("coffee-shop-front.jpg");
+    url("images/coffee-shop-front.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -126,7 +126,7 @@ nav a:focus {
 }
 #job.hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("baristas.jpg");
+    url("images/baristas.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
